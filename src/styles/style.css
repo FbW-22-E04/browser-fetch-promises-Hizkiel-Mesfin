@@ -14,14 +14,13 @@ body * {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
-
-  &__content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
+}
+.modal__content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
 }
 
 .close {
@@ -29,10 +28,11 @@ body * {
   float: right;
   font-size: 28px;
   font-weight: bold;
-  &:hover,
-  &:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
